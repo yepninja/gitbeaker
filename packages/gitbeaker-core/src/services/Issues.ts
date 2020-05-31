@@ -53,7 +53,7 @@ export class Issues extends BaseService {
     return RequestHelper.put(this, `projects/${pId}/issues/${iId}`, options);
   }
 
-  links(
+  link(
     projectId: string | number,
     issueIId: number,
     targetProjectId: string | number,
